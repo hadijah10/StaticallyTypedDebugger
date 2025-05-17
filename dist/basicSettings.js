@@ -1,4 +1,4 @@
-import General from "./general";
+import General from "./general.js";
 class Light extends General {
     constructor() {
         super();
