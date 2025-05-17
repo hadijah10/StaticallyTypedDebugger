@@ -5,9 +5,13 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "test": "jest"
+    "test": "jest --config jest.config.js"
   },
-   "devDependencies": {
+   "jest":{
+    "preset": "ts-jest",
+    "testEnvironment":"jsdom"
+   },
+  "devDependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
     "@types/jest": "^29.5.14",
@@ -15,7 +19,7 @@
     "chart.js": "^4.4.9",
     "jest": "^29.7.0",
     "jest-environment-jsdom": "^29.7.0",
-    "ts-jest": "^29.3.3",
+    "ts-jest": "^29.3.4",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },

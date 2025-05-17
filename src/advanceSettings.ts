@@ -1,6 +1,6 @@
 import General from "./general";
-import Light from "./basicSettings.js";
-import { Component } from "./general.js";
+import Light from "./basicSettings";
+import { Component } from "./general";
 
 declare const Chart: any;
 class AdvanceSettings extends Light {
